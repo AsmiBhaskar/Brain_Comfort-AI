@@ -1,0 +1,114 @@
+/* Global Styles */
+body {
+    background: linear-gradient(to right, #e3f2fd, #bbdefb); /* Soft blue gradient */
+    font-family: 'Arial', sans-serif; /* Clean, modern font */
+    color: #333; /* Dark gray text for better readability */
+    margin: 0;
+    padding: 0;
+}
+
+/* Index Page Styles */
+.container {
+    background: linear-gradient(to bottom, #e3f2fd, #bbdefb); /* Soft blue gradient for the entire page */
+    padding: 20px; /* Padding around the container */
+    border-radius: 10px; /* Rounded corners for the main container */
+}
+
+h1 {
+    color: #007bff; /* Primary color for headings */
+    font-size: 2.5rem; /* Larger heading size */
+}
+
+p.lead {
+    font-size: 1.25rem; /* Larger font size for the motivational quote */
+    color: #555; /* Slightly darker gray for better readability */
+}
+
+/* Card Styles */
+.card {
+    border: none; /* Remove default border */
+    border-radius: 10px; /* Rounded corners for the card */
+}
+
+.card-body {
+    padding: 20px; /* Add padding to the card body */
+}
+
+/* Button Styles */
+.btn {
+    background-color: #007bff; /* Primary color for buttons */
+    border: none;
+    border-radius: 5px; /* Rounded corners for buttons */
+    padding: 10px 20px; /* Padding for button size */
+    color: #fff; /* White text */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+
+/* Form Styles */
+.form-group {
+    margin-bottom: 15px; /* Space between form elements */
+}
+
+/* Chatbox Styles */
+/* Chatbox Styles */
+.chat-box {
+    width: 100%;
+    height: 400px;
+    overflow-y: auto;
+    border: none; /* Remove the border for a cleaner look */
+    border-radius: 8px; /* Rounded corners for the chatbox */
+    padding: 15px; /* Increase padding for a spacious feel */
+    background-color: #f0f0f0; /* Light gray background for the chatbox */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Individual Chat Messages */
+.chat-message {
+    margin-bottom: 10px;
+    padding: 10px 15px; /* Add padding for message text */
+    border-radius: 20px; /* Rounded corners for messages */
+    max-width: 75%; /* Limit the width of messages */
+    word-wrap: break-word; /* Allow long words to break */
+}
+
+/* User Message Styles */
+.chat-message.user {
+    text-align: right; /* Align user messages to the right */
+    background-color: #cce5ff; /* Light blue background for user messages */
+    margin-left: auto; /* Push user messages to the right */
+}
+
+/* AI Message Styles */
+.chat-message.ai {
+    text-align: left; /* Align AI messages to the left */
+    background-color: #d4edda; /* Light green background for AI messages */
+    margin-right: auto; /* Push AI messages to the left */
+}
+
+/* Adjusting Scrollbar for Modern Look */
+.chat-box::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+}
+
+.chat-box::-webkit-scrollbar-thumb {
+    background: #007bff; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Rounded corners for the scrollbar thumb */
+}
+
+.chat-box::-webkit-scrollbar-track {
+    background: #e9ecef; /* Color of the scrollbar track */
+}
+
+/* Transition Effect for Messages */
+.chat-message {
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.chat-message:hover {
+    background-color: rgba(0, 0, 0, 0.05); /* Light background on hover for messages */
+}
